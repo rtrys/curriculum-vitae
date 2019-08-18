@@ -8,13 +8,24 @@ import Education from '../components/Education';
 import Experience from '../components/Experience';
 import Certificates from '../components/Certificates';
 import Skills from '../components/Skills';
+import useGetData from '../hooks/useGetData';
 
 const App = () => {
+
+  const data = useGetData();
+
   return (
     <div>
       <Main>
         <Sidebar>
-          <About></About>
+          <About
+            avatar={data.avatar}
+            name={data.name}
+            profession={data.profession}
+            bio={data.bio}
+            address={data.address}
+            social={data.social}
+          />
         </Sidebar>
         <Info>
           <Education></Education>
