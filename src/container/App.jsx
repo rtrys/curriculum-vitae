@@ -6,15 +6,15 @@ import Info from '../components/Info';
 import About from '../components/About';
 import Education from '../components/Education';
 import Experience from '../components/Experience';
-import Certificates from '../components/Certificates';
-import Skills from '../components/Skills';
+import Certificate from '../components/Certificate';
+import Skill from '../components/Skill';
 import useGetData from '../hooks/useGetData';
 
 const App = () => {
 
   const data = useGetData();
 
-  return (
+  return data.length === 0 ? <h1>cargando...</h1> : (
     <div>
       <Main>
         <Sidebar>
@@ -28,10 +28,10 @@ const App = () => {
           />
         </Sidebar>
         <Info>
-          <Education></Education>
-          <Experience></Experience>
-          <Certificates></Certificates>
-          <Skills></Skills>
+          <Education data={data.education} />
+          <Experience data={data.experience} />
+          <Certificate data={data.certificate} />
+          <Skill data={data.skills} />
         </Info>
       </Main>
     </div>
