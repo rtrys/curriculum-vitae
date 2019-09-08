@@ -61,12 +61,12 @@
       "percentage": "45%"
     },
     {
-      "name": "NodeJS",
-      "percentage": "60%"
-    },
-    {
       "name": "Graphql",
       "percentage": "50%"
+    },
+    {
+      "name": "NodeJS",
+      "percentage": "60%"
     },
     {
       "name": "ExpressJS",
