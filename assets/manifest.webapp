@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "name": "curriculum-vitae",
-  "description": "Crear un proyecto desde cero con react y a la vez hacerlo como en cv",
+  "description": "Create my own portfolio with React an hosted with github pages",
   "icons": {
     "60": "/assets/firefox_app_60x60.png",
     "128": "/assets/firefox_app_128x128.png",

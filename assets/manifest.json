@@ -1,7 +1,7 @@
 {
   "name": "curriculum-vitae",
   "short_name": "curriculum-vitae",
-  "description": "Crear un proyecto desde cero con react y a la vez hacerlo como en cv",
+  "description": "Create my own portfolio with React an hosted with github pages",
   "dir": "auto",
   "lang": "en-US",
   "display": "standalone",
