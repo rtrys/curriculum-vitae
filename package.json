@@ -1,7 +1,7 @@
 {
   "name": "curriculum-vitae",
   "version": "1.0.0",
-  "description": "Crear un proyecto desde cero con react y a la vez hacerlo como en cv",
+  "description": "Create my own portfolio with React an hosted with github pages",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,21 +20,22 @@
   },
   "homepage": "https://github.com/heortizr/curriculum-vitae#readme",
   "dependencies": {
+    "file-loader": "^4.2.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "styled-components": "^4.3.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
     "babel-plugin-transform-class-properties": "^6.24.1",
-    "favicons-webpack-plugin": "^1.0.1",
+    "favicons-webpack-plugin": "^1.0.2",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
-    "webpack": "^4.39.2",
-    "webpack-cli": "^3.3.6",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
     "webpack-dev-server": "^3.8.0"
   }
 }

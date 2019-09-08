@@ -1,6 +1,7 @@
 import React from 'react'
 import Social from './Social';
 import styled from 'styled-components';
+import img from '../../public/img/perfil.jpg';
 
 const AboutStyle = styled.div`
   text-align: center;
@@ -45,7 +46,7 @@ const About = ({ avatar, name, profession, bio, address, social }) => {
       <div className="About-container">
         <AboutAvatar className="About-avatar">
           <figure>
-            <AboutImg src={avatar} alt="{name}" />
+            <AboutImg src={img} alt="{name}" />
           </figure>
           <AboutName>
             <AboutH2>{name}</AboutH2>

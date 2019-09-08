@@ -14,11 +14,20 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(js|jsx)/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: [
           {
             loader: 'babel-loader',
+          },
+        ],
+      },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        exclude: /node_modules/,
+        use: [
+          {
+            loader: 'file-loader',
           },
         ],
       },
@@ -38,6 +47,6 @@ module.exports = {
       template: './public/index.html',
       file: './index.html',
     }),
-    new FaviconsWebpackPlugin('./public/react_logo-512.png'),
+    new FaviconsWebpackPlugin('./public/img/react_logo-512.png'),
   ],
 };
