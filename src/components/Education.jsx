@@ -1,19 +1,21 @@
 import React from 'react'
-import H2Styled from '../styled/H2Styled'
-import H3Styled from '../styled/H3Styled'
-import PStyled from '../styled/PStyled'
+import Item from './Item'
+import Title from './Title';
 
 const Education = props => {
   return (
     <div className="Education">
-      <H2Styled>Education</H2Styled>
       <div className="Education-container">
+        <Title>Education</Title>
         {
           props.data.map((edu, index) => (
             <div className="Education-item" key={`edu-${index}`}>
-              <H3Styled>{edu.degree} @ {edu.institution}</H3Styled>
-              <H3Styled><span>{edu.startDate} - {edu.endDate}</span></H3Styled>
-              <PStyled>{edu.description}</PStyled>
+              <Item
+                name={edu.degree}
+                place={edu.institution}
+                date={`${edu.startDate} - ${edu.endDate}`}
+                description={edu.description}
+                />
             </div>
           ))
         }

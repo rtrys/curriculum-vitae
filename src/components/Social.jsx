@@ -1,27 +1,5 @@
 import React from 'react'
-import styled, { ThemeProvider } from 'styled-components'
-
-const SocialStyled = styled.div`
-  margin: 0 auto;
-  display: block;
-`;
-
-const SocialUl = styled.ul`
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-`;
-
-const SocialLi = styled.li`
-  display: inline;
-  margin: 0 1em 0 0;
-`;
-
-const SocialAnchor = styled.a`
-  color: #212121;
-  text-decoration: none;
-  font-size: 1.2em;
-`;
+import styled, { ThemeProvider } from 'styled-components';
 
 const SocialIcon = styled.i`
   color: ${ props => props.theme.color };
@@ -54,24 +32,24 @@ const getColor = (name) => {
 
 const Social = props => {
   return (
-    <SocialStyled>
+    <div className="Social">
       {
         props.social &&
-        <SocialUl>
+        <ul>
           {
             props.social.map((social, index) => (
-              <SocialLi key={`social-${index}`} target="_blank">
-                <SocialAnchor href={social.url}>
+              <li key={`social-${index}`} target="_blank">
+                <a href={social.url}>
                   <ThemeProvider theme={getColor(social.name)}>
                     <SocialIcon className={`fa fa-${social.name}`} />
                   </ThemeProvider>
-                </SocialAnchor>
-              </SocialLi>
+                </a>
+              </li>
             ))
           }
-        </SocialUl>
+        </ul>
       }
-    </SocialStyled>
+    </div>
   )
 }
 

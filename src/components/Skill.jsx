@@ -1,23 +1,5 @@
 import React from 'react'
-import styled, { keyframes } from 'styled-components'
-
-const SkillContainer = styled.div`
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
-  grid-row-gap: 0.5em;
-`;
-
-const SkillH5 = styled.h5`
-  margin: .5em 0;
-`;
-
-const SkillLine = styled.div`
-  height: 8px;
-  position: relative;
-  border-radius: 50px;
-  background: #F8BBD0;
-`;
+import styled, { keyframes } from 'styled-components';
 
 const move = keyframes`
   0% { background-position: 0 0; }
@@ -51,18 +33,18 @@ const SkillSpan = styled.span`
 const Skill = props => {
   return (
     <div className="Skill">
-      <SkillContainer>
+      <div className="Skill-container">
         {
           props.data.map((skill, index) => (
             <div className="Skill-item" key={`skill-${index}`}>
-              <SkillH5>{skill.name}</SkillH5>
-              <SkillLine>
+              <h5>{skill.name}</h5>
+              <div className="Skill-line">
                 <SkillSpan width={skill.percentage} />
-              </SkillLine>
+              </div>
             </div>
           ))
         }
-      </SkillContainer>
+      </div>
     </div>
   )
 }

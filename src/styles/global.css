@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+}
+
+.Main {
+  display: grid;
+  grid-template-columns: minmax(auto, 1024px);
+  justify-content: center;
+  padding: 1em;
+}
+
+.Main-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 2rem;
+  grid-row-gap: 0.5em;
+  @media only screen and (max-width: 767px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.About {
+  text-align: center;
+}
+
+.About-container {
+  padding: 2em 0 0 0;
+}
+
+.About-img {
+  border-radius: 100%;
+  width: 160px;
+  height: 160px;
+  border: 2px solid #E91E63;
+  margin: 0 auto;
+  display: block;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.6);
+}
+
+.About-avatar {
+  text-align: center;
+}
+
+.About-avatar div h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  margin: .5em 0 0 0;
+  color: #c2185b;
+}
+
+.About-profession p {
+  margin: .2em 0 1em 0;
+  letter-spacing: 1.6px;
+  font-weight: 300;
+  color: #c21858;
+}
+
+.Skill-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  grid-row-gap: 0.5em;
+}
+
+.Skill-item h5 {
+  margin: .5em 0;
+}
+
+.Skill-line {
+  height: 8px;
+  position: relative;
+  border-radius: 50px;
+  background: #F8BBD0;
+}
+
+.Social {
+  margin: 0 auto;
+  display: block;
+}
+
+.Social ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Social ul li {
+  display: inline;
+  margin: 0 1em 0 0;
+}
+
+.Social ul li a {
+  color: #212121;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.Title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  letter-spacing: .8px;
+  margin: 1em 0 0 0;
+  color: #c2185b;
+}
+
+.Item p {
+  font-weight: 300;
+  margin: .5em 0 1.2em 0;
+  color: #757575;
+}
+
+.Item h3 {
+  font-weight: 400;
+  margin: .5em 0 0 0;
+  color: #212121;
+}
