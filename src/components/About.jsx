@@ -1,5 +1,6 @@
 import React from 'react'
 import Social from './Social';
+import img from '../../public/img/perfil.jpg';
 
 const About = ({ avatar, name, profession, bio, address, social }) => {
   return (
@@ -7,7 +8,7 @@ const About = ({ avatar, name, profession, bio, address, social }) => {
       <div className="About-container">
         <div className="About-avatar">
           <figure>
-            <img src={avatar} alt="{name}" />
+            <img src={img} alt="{name}" className="About-img" />
           </figure>
           <div className="About-name">
             <h2>{name}</h2>

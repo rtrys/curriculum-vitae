@@ -1,0 +1,126 @@
+{
+  "name": "Hugo Ortiz",
+  "profession": "Fullstack Javascript Ddeveloper",
+  "address": "Guatemala, Guatemala",
+  "avatar": "assets/perfil.jpg",
+  "bio": "I love web programming, either backend and frontend and I am trying to be a fullstack Javascript developer",
+  "certificate": [
+    {
+      "date": "Jan 2018",
+      "description": "Rest, despliegues, heroku, mlab, git, github, sockets, subida de archivos, jwt, Etc.",
+      "institution": "Udemy",
+      "name": "NodeJS"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master Business Administration",
+      "description": "I hope to be an entrepreneur at some point, so, I need to be prepared for that moment.",
+      "endDate": "Dec 2016",
+      "institution": "UMG",
+      "startDate": "Jan 2015"
+    },
+    {
+      "degree": "Information Systems Engineering",
+      "description": "Bachelor degree at UMG in Information System Engineering",
+      "endDate": "Decenber 2013",
+      "institution": "UMG",
+      "startDate": "Jan 2008"
+    }
+  ],
+  "experience": [
+    {
+      "jobTitle": "Software Engineer 3",
+      "company": "Paypal",
+      "startDate": "Jun 2018",
+      "endDate": "Present",
+      "jobDescription": "As part of Consumer Apps orchestration layer, I support all orchestrarion layer in NodeJS with ExpressJS and HapiJS and we provide REST and Graphql api for our clients"
+    },
+    {
+      "jobTitle": "Software Developer",
+      "company": "Seguros GYT",
+      "startDate": "Apr 2015",
+      "endDate": "Jun 2018",
+      "jobDescription": "As part of transition de service, I had the opportunity to implement developer tools like Git, Sonarqube and Jenkins in order to reach a Continuous Integration environment, I worked with Docker, AWS, and also I made efforts to automatize test."
+    },
+    {
+      "jobTitle": "Software Developer",
+      "company": "Consystec",
+      "startDate": "Sep 2011",
+      "endDate": "Apr 2015",
+      "jobDescription": "I worked mostly with Java to develop API, but, I have time to work with frontend with AngularJS"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Javascript",
+      "percentage": "75%"
+    },
+    {
+      "name": "Java",
+      "percentage": "45%"
+    },
+    {
+      "name": "Graphql",
+      "percentage": "50%"
+    },
+    {
+      "name": "NodeJS",
+      "percentage": "60%"
+    },
+    {
+      "name": "ExpressJS",
+      "percentage": "80%"
+    },
+    {
+      "name": "HapiJS",
+      "percentage": "40%"
+    },
+    {
+      "name": "Angular",
+      "percentage": "50%"
+    },
+    {
+      "name": "React",
+      "percentage": "80%"
+    },
+    {
+      "name": "Vue",
+      "percentage": "40%"
+    },
+    {
+      "name": "Docker",
+      "percentage": "70%"
+    },
+    {
+      "name": "Redis",
+      "percentage": "60%"
+    },
+    {
+      "name": "MySQL",
+      "percentage": "50%"
+    },
+    {
+      "name": "AWS",
+      "percentage": "30%"
+    },
+    {
+      "name": "Linux",
+      "percentage": "60%"
+    }
+  ],
+  "social": [
+    {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/in/heortizr/"
+    },
+    {
+      "name": "github",
+      "url": "https://github.com/heortizr"
+    },
+    {
+      "name": "twitter",
+      "url": "https://twitter.com/heortizr"
+    }
+  ]
+}
