@@ -1,15 +1,21 @@
 import React from 'react'
+import Item from './Item'
+import Title from './Title';
 
 const Education = props => {
   return (
     <div className="Education">
       <div className="Education-container">
+        <Title>Education</Title>
         {
           props.data.map((edu, index) => (
             <div className="Education-item" key={`edu-${index}`}>
-              <h3>{edu.degree} @ {edu.institution}</h3>
-              <h4><span>{edu.startDate} - {edu.endDate}</span></h4>
-              <p>{edu.description}</p>
+              <Item
+                name={edu.degree}
+                place={edu.institution}
+                date={`${edu.startDate} - ${edu.endDate}`}
+                description={edu.description}
+                />
             </div>
           ))
         }

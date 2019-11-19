@@ -6,10 +6,25 @@
   "bio": "I love web programming, either backend and frontend and I am trying to be a fullstack Javascript developer",
   "certificate": [
     {
-      "date": "Jan 2018",
-      "description": "Rest, despliegues, heroku, mlab, git, github, sockets, subida de archivos, jwt, Etc.",
+      "date": "Jun 2018",
+      "description": "Rest, despliegues, heroku, mlab, git, github, sockets, subida de archivos, jwt y mucho más para ser un experto en Node",
       "institution": "Udemy",
-      "name": "NodeJS"
+      "credential": "https://www.udemy.com/certificate/UC-5HTEFP2I",
+      "name": "Node: De cero a experto"
+    },
+    {
+      "date": "May 2018",
+      "description": "MEAN, Google Signin, JWT, carga de archivos, lazyload, optimizaciones, Git, GitHub, panel administrativo y mucho más.",
+      "institution": "Udemy",
+      "credential": "https://www.udemy.com/certificate/UC-MTTT5N2K",
+      "name": "Angular Avanzado: Lleva tus bases al siguiente nivel - MEAN"
+    },
+    {
+      "date": "May 2017",
+      "description": "Dive deep under the hood of NodeJS. Learn V8, Express, the MEAN stack, core Javascript concepts, and more.",
+      "institution": "Udemy",
+      "credential": "https://www.udemy.com/certificate/UC-UEMM859U",
+      "name": "Learn and Understand NodeJS"
     }
   ],
   "education": [
