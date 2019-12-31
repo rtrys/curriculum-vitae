@@ -6,6 +6,50 @@
   "bio": "I love web programming, either backend and frontend and I am trying to be a fullstack Javascript developer",
   "certificate": [
     {
+      "date": "Dec 2019",
+      "description": "Todo lo que necesitas saber sobre observables, subscribers, operadores y programación reactiva",
+      "institution": "Udemy",
+      "credential": "https://www.udemy.com/certificate/UC-FKXWPIWB",
+      "name": "ReactiveX - RxJs: De cero hasta los detalles"
+    },
+    {
+      "date": "Oct 2019",
+      "description": "Concise course for seasoned javascript developers, who are new to React or want to strengthen their React skills.",
+      "institution": "Udemy",
+      "credential": "https://www.udemy.com/certificate/UC-PSCY5FSC",
+      "name": "Learn React by building and deploying production ready App"
+    },
+    {
+      "date": "Sep 2019",
+      "description": "Ethical Hacking with JavaScript",
+      "institution": "Linkedin Learning",
+      "name": "Ethical Hacking with JavaScript"
+    },
+    {
+      "date": "Sep 2019",
+      "description": "Learning Functional Programming with JavaScript ES6+",
+      "institution": "Linkedin Learning",
+      "name": "Learning Functional Programming with JavaScript ES6+"
+    },
+    {
+      "date": "Jul 2019",
+      "description": "React esencial",
+      "institution": "Linkedin Learning",
+      "name": "React esencial"
+    },
+    {
+      "date": "Jun 2019",
+      "description": "Expresiones regulares",
+      "institution": "Linkedin Learning",
+      "name": "JavaScript avanzado"
+    },
+    {
+      "date": "Jun 2019",
+      "description": "Buenas prácticas",
+      "institution": "Linkedin Learning",
+      "name": "JavaScript avanzado"
+    },
+    {
       "date": "Jun 2018",
       "description": "Rest, despliegues, heroku, mlab, git, github, sockets, subida de archivos, jwt y mucho más para ser un experto en Node",
       "institution": "Udemy",
@@ -127,15 +171,15 @@
   "social": [
     {
       "name": "linkedin",
-      "url": "https://www.linkedin.com/in/heortizr/"
+      "url": "https://www.linkedin.com/in/rtrys/"
     },
     {
       "name": "github",
-      "url": "https://github.com/heortizr"
+      "url": "https://github.com/rtrys"
     },
     {
       "name": "twitter",
-      "url": "https://twitter.com/heortizr"
+      "url": "https://twitter.com/rtrys"
     }
   ]
 }
